@@ -4,7 +4,7 @@ This repository contains the source code and lab reports for the Web Technology 
 
 ## Branches
 - `lab-unit-1`: HTML & CSS
-- `lab-unit-2`: JavaScript & Client-Side Scripting
+- `lab-unit-2`: XML & Validation
 - `unit3`: PHP & Server-Side Scripting
 
 Please switch to the respective branch to view the files and reports for each lab.
