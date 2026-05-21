@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="university.xsd">
+    <school school_id="SCI-01">
+        <name>School of Computer Science</name>
+        <location>Building A, North Campus</location>
+        <staff_members>
+            <staff staff_id="STF101">
+                <name>Dr. Alan Turing</name>
+                <title>Senior Lecturer</title>
+                <category>academic</category>
+                <address>
+                    <street>123 Computing Way</street>
+                    <suburb>Binary Hills</suburb>
+                    <postcode>2000</postcode>
+                </address>
+                <address>
+                    <street>456 Innovation Blvd</street>
+                    <suburb>Silicon Valley</suburb>
+                    <postcode>94043</postcode>
+                </address>
+            </staff>
+            <staff staff_id="STF102">
+                <name>Grace Hopper</name>
+                <category>technical</category>
+                <address>
+                    <street>789 Compiler Lane</street>
+                    <suburb>Data Core</suburb>
+                    <postcode>4000</postcode>
+                </address>
+            </staff>
+        </staff_members>
+        <subjects>
+            <subject subject_code="COMP101">
+                <name>Introduction to Programming</name>
+                <description>Foundational concepts of software development.</description>
+                <capacity>150</capacity> 
+                <taught_by staff_ref="STF101"/>
+            </subject>
+            <subject subject_code="COMP402">
+                <name>Advanced Quantum Computing</name>
+                <description>Exploring quantum algorithms and architectures.</description>
+                <capacity>12</capacity> 
+                <taught_by staff_ref="STF101"/>
+                <taught_by staff_ref="STF102"/>
+            </subject>
+        </subjects>
+    </school>
+</university>

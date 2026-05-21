@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital_records xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hospital.xsd">
+    <patient>
+        <name>
+            <first_name>Robert</first_name>
+            <middle_name>John</middle_name>
+            <last_name>Miller</last_name>
+        </name>
+        <patient_number>45102</patient_number>
+        <doctor_name>Dr. Alice Evans</doctor_name>
+        <disease>Type 2 Diabetes</disease>
+        <disease>Hypertension</disease>
+        <consultation_charge>1500.00</consultation_charge>
+        <lab_tests>
+            <test>HbA1c Blood Test</test>
+            <test>Lipid Panel</test>
+            <test>Basic Metabolic Panel</test>
+        </lab_tests>
+    </patient>
+    <patient>
+        <name>
+            <first_name>Sarah</first_name>
+            <last_name>Connor</last_name>
+        </name>
+        <patient_number>91823</patient_number>
+        <doctor_name>Dr. Raymond Holt</doctor_name>
+        <disease>Acute Bronchitis</disease>
+        <consultation_charge>500.00</consultation_charge>
+        <lab_tests>
+            <test>Chest X-Ray</test>
+            <test>Complete Blood Count (CBC)</test>
+        </lab_tests>
+    </patient>
+</hospital_records>

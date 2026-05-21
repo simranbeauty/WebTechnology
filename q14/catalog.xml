@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+    <book id="bk101">
+        <author>Buneman</author>
+        <title>XML Developer's Guide</title>
+        <genre>Computer</genre>
+        <price>129.95</price>
+        <publish_date>1992-03-25</publish_date>
+        <description>Kluwer Academic Publishers</description>
+    </book>
+    <book id="bk102">
+        <author>Gambardella, Matthew</author>
+        <title>Midnight Rain</title>
+        <genre>Fantasy</genre>
+        <price>44.95</price>
+        <publish_date>2000-10-01</publish_date>
+        <description>An in-depth look at creating applications with XML.</description>
+    </book>
+    <book id="bk103">
+        <author>Ralls, Kim</author>
+        <title>Midnight Rain</title>
+        <genre>Fantasy</genre>
+        <price>5.95</price>
+        <publish_date>2000-12-16</publish_date>
+        <description>A former software engineer battles an ancient dread.</description>
+    </book>
+    <book id="bk104">
+        <author>Corets, Eva</author>
+        <title>Maeve Ascendant</title>
+        <genre>Fantasy</genre>
+        <price>5.95</price>
+        <publish_date>2000-11-17</publish_date>
+        <description>After the collapse of a minor kingdom, a new power arises.</description>
+    </book>
+    <book id="bk105">
+        <author>Corets, Eva</author>
+        <title>Oberon's Legacy</title>
+        <genre>Fantasy</genre>
+        <price>5.95</price>
+        <publish_date>2001-03-10</publish_date>
+        <description>In Ireland, an ancient druid stone is discovered.</description>
+    </book>
+</catalog>

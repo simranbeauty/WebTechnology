@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="movies.xsd">
+    <Movie id="m101">
+        <title>Inception</title>
+        <year>2010</year>
+        <_director name="Christopher Nolan">Director Information</_director>
+        <comment lang="en">A masterpiece of modern sci-fi.</comment>
+        <comment lang="fr">Absolument brillant.</comment>
+    </Movie>
+    <Movie id="m102">
+        <title>Spirited Away</title>
+        <year>2001</year>
+        <_director>Hayao Miyazaki</_director>
+        <comment>Beautifully animated.</comment>
+        <newcomment>An incredible theatrical re-release experience!</newcomment>
+        <comment lang="jp">すばらしい映画です。</comment>
+    </Movie>
+</movies>

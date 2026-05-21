@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book id="1">
+        <title>The Pragmatic Programmer: Your Journey to Mastery</title>
+        <author>Andrew Hunt</author>
+        <isbn>978-0135166307</isbn>
+        <publisher>Addison-Wesley Professional</publisher>
+        <edition>2nd Edition</edition>
+        <price currency="USD">45.99</price>
+    </book>
+    <book id="2">
+        <title>Clean Code: A Handbook of Agile Software Craftsmanship</title>
+        <author>Robert C. Martin</author>
+        <isbn>978-0132350884</isbn>
+        <publisher>Prentice Hall</publisher>
+        <edition>1st Edition</edition>
+        <price currency="USD">42.50</price>
+    </book>
+    <book id="3">
+        <title>Introduction to Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <isbn>978-0262046305</isbn>
+        <publisher>MIT Press</publisher>
+        <edition>4th Edition</edition>
+        <price currency="USD">95.00</price>
+    </book>
+</bookstore>

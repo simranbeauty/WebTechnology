@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform_products.xsl"?>
+<products_list>
+    <product>
+        <productname>Laptop</productname>
+        <category>Electronics</category>
+        <price>1200</price>
+        <quantity>15</quantity>
+    </product>
+    <product>
+        <productname>Tablet</productname>
+        <category>Electronics</category>
+        <price>400</price>
+        <quantity>5</quantity>
+    </product>
+    <product>
+        <productname>Smartphone</productname>
+        <category>Electronics</category>
+        <price>800</price>
+        <quantity>20</quantity>
+    </product>
+    <product>
+        <productname>Desk Chair</productname>
+        <category>Furniture</category>
+        <price>150</price>
+        <quantity>12</quantity>
+    </product>
+</products_list>

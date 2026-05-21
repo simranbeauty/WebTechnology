@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student_records xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="students.xsd">
+    <student rollno="S101">
+        <name>
+            <first_name>Rohan</first_name>
+            <middle_name>Kumar</middle_name>
+            <last_name>Sharma</last_name>
+        </name>
+        <email>rohan.sharma@example.com</email>
+        <phone>9841234567</phone>
+        <address type="permanent">Kathmandu, Nepal</address>
+        <address type="temporary">Lalitpur, Nepal</address>
+        <DOB type="AD">2004-05-14</DOB>
+    </student>
+    <student rollno="S102">
+        <name>
+            <first_name>Aayusha</first_name>
+            <last_name>Shrestha</last_name>
+        </name>
+        <email>aayusha@domain.org</email>
+        <phone>9745678901</phone>
+        <address type="permanent">Pokhara, Nepal</address> 
+        <DOB type="BS">2061-02-25</DOB>
+    </student>
+</student_records>

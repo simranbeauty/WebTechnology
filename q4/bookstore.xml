@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bookstore.xsd">
+    <book isbn="978-3-16-148410-0">
+        <title>The Tech Revolution</title>
+        <author title="mr" phone="+1-555-0199" email="john.d@example.com">
+            <name>
+                <first_name>John</first_name>
+                <middle_name>Robert</middle_name>
+                <last_name>Doe</last_name>
+            </name>
+        </author>
+        <author phone="+1-555-0143" email="jane.s@example.com">
+            <name>
+                <first_name>Jane</first_name>
+                <last_name>Smith</last_name>
+            </name>
+        </author>
+        <page_no>350</page_no>
+        <price currency="USD">45.00</price>
+    </book>
+    <book isbn="978-0-545-01022-1">
+        <title>Himalayan Trails</title>
+        <author title="mrs" phone="+977-1-444444" email="anita@example.com.np">
+            <name>
+                <first_name>Anita</first_name>
+                <last_name>Sharma</last_name>
+            </name>
+        </author>
+        <page_no>210</page_no>
+        <price currency="NPR">550.00</price>
+    </book>
+</bookstore>

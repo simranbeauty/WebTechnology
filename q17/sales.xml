@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sales.xsd">
+    <salesman>
+        <name title="Mr.">
+            <first>Hari</first>
+            <middle>Kumar</middle>
+            <last>Shrestha</last>
+        </name>
+        <phone>9851012345</phone>
+        <area>Kathmandu</area>
+        <records>
+            <record>
+                <product productid="P-9901">
+                    <sku>SKU-LAP-01</sku>
+                    <product_name>Pro Laptop 15</product_name>
+                </product>
+                <quantity>2</quantity>
+                <price currency="usd">1199.99</price>
+                <date type="ad">2026-05-21</date>
+            </record>
+            <record>
+                <product productid="P-5542">
+                    <sku>SKU-MOU-05</sku>
+                    <product_name>Wireless Optical Mouse</product_name>
+                </product>
+                <quantity>15</quantity>
+                <price>2500.00</price>
+                <date type="bs">2083-02-07</date>
+            </record>
+        </records>
+    </salesman>
+    <salesman>
+        <name title="Ms.">
+            <first>Sita</first>
+            <last>Thapa</last>
+        </name>
+        <phone type="work">01-4412345</phone>
+        <area>Lalitpur</area>
+        <records>
+            <record>
+                <product productid="P-1022">
+                    <sku>SKU-KB-09</sku>
+                    <product_name>Mechanical Keyboard</product_name>
+                </product>
+                <quantity>5</quantity>
+                <price currency="inr">4200.00</price>
+                <date type="ad">2026-04-10</date>
+            </record>
+        </records>
+    </salesman>
+</sales>
