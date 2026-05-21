@@ -1,9 +1,8 @@
-# Web Technology Lab 2 - JavaScript & Client-Side Scripting
+# Web Technology Lab 2 - XML & Validation
 
-This branch contains the solutions for Lab Unit 2, focusing on JavaScript and Client-Side Scripting.
+This branch contains the solutions for Lab Unit 2, focusing on XML and Validation.
 
 ## Contents
-- JavaScript functions, arrays, and objects
-- DOM manipulation
-- Event handling
-- Form validation with JavaScript
+- XML structure and syntax
+- XML Schema (XSD) and DTD validation
+- XPath and XSLT basics
