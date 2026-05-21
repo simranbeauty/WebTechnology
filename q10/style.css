@@ -1,0 +1,4 @@
+table { border-collapse: collapse; margin: 20px auto; font-family: serif; border: 2px solid grey; }
+th, td { border: 1px solid grey; padding: 10px; text-align: center; }
+.title { font-size: 24px; font-weight: bold; padding: 20px; }
+.project { font-weight: bold; }

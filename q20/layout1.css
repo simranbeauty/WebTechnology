@@ -1,0 +1,8 @@
+body { margin: 0; font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; }
+.header { background-color: #60648c; padding: 40px; text-align: center; }
+.menu { background-color: #8fa08f; padding: 10px 20px; }
+.main-content { display: flex; flex: 1; }
+.left { background-color: #a85d58; flex: 1; padding: 20px; }
+.content { background-color: #00bfff; flex: 2; padding: 20px; }
+.right { background-color: #8c73ff; flex: 1; padding: 20px; }
+.footer { background-color: #8c9096; padding: 20px; }

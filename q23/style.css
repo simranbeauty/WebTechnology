@@ -1,0 +1,15 @@
+body { font-family: "Segoe UI", sans-serif; background-color: #f0f4f4; padding: 20px; display: flex; justify-content: center; }
+.grade-sheet { background-color: white; border: 2px solid #2b455b; border-radius: 5px; width: 900px; padding: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.header { text-align: center; color: #2b455b; margin-bottom: 30px; }
+.header h1 { margin: 0; font-size: 24px; letter-spacing: 1px; }
+.header p { margin: 5px 0; color: #7f8c8d; }
+.subtitle { margin-top: 15px; font-size: 18px; }
+.student-info { display: flex; justify-content: space-between; background-color: #f8f9fa; padding: 20px; border-left: 5px solid #2b455b; margin-bottom: 20px; color: #2c3e50; }
+.student-info p { margin: 5px 0; }
+.info-right { text-align: right; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+td:nth-child(2) { text-align: left; }
+th { background-color: #34495e; color: white; font-weight: bold; font-size: 14px; }
+td { color: #555; }
+.footer { background-color: #34495e; color: white; padding: 15px 20px; display: flex; justify-content: flex-end; gap: 40px; border-radius: 3px; font-size: 16px; }

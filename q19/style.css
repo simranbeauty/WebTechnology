@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url('../images/l1q19.png') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+}
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    min-height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.card {
+    background-color: rgba(40,40,40,0.9);
+    padding: 30px;
+    border-radius: 5px;
+    flex: 1;
+}
+.card-title {
+    color: #00ffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.input-field.highlight {
+    background-color: #ffffcc;
+    color: black;
+}
+.hint {
+    font-size: 11px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+.radio-row, .check-row {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+.radio-row label {
+    margin-right: 15px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #cc9900;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

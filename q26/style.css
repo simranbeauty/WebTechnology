@@ -1,0 +1,6 @@
+body { background-color: #e5e5e5; padding: 40px; font-family: monospace; display: flex; justify-content: center; }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; max-width: 1200px; }
+.polaroid { background-color: white; padding: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid #ccc; }
+.polaroid img { width: 100%; aspect-ratio: 1/1; object-fit: cover; display: block; }
+.img-placeholder { width: 100%; aspect-ratio: 1/1; border: 1px solid #eee; padding: 10px; box-sizing: border-box; }
+.polaroid p { text-align: center; margin: 15px 0 0 0; font-size: 16px; }

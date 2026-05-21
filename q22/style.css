@@ -1,0 +1,13 @@
+body { margin: 20px; font-family: sans-serif; display: flex; justify-content: center; }
+.container { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 10px; }
+.container > div {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.header { background-color: #f06a6a; color: #333; }
+.main { background-color: white; border: 1px solid #ccc; height: 100px; display: flex; align-items: center; justify-content: center; }
+.left { background-color: #e6c55c; }
+.right { background-color: #a4e673; }
+.footer { background-color: #6bb9ed; }

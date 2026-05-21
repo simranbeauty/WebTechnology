@@ -1,0 +1,5 @@
+body { font-family: "Times New Roman", Times, serif; }
+.container { display: flex; border: 1px solid black; }
+.left, .right { padding: 20px; width: 50%; box-sizing: border-box; }
+.left { border-right: 1px solid black; }
+h2 { font-family: serif; }

@@ -1,0 +1,29 @@
+body { font-family: sans-serif; background-color: #f4f4f4; padding: 40px; display: flex; justify-content: center; }
+.invoice { background-color: white; width: 850px; padding: 50px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-top: 10px solid #e25822; }
+.header { display: flex; justify-content: space-between; border-bottom: 1px solid #eee; padding-bottom: 20px; background-color: #f9f9f9; padding: 20px; margin: -50px -50px 20px -50px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.company-info { display: flex; align-items: center; gap: 20px; }
+.logo { width: 80px; height: 80px; background-color: #555; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+.details h2 { margin: 0 0 5px 0; color: #333; }
+.details p { margin: 0; color: #666; font-size: 14px; line-height: 1.5; }
+.invoice-details { text-align: right; }
+.invoice-details h1 { margin: 0; color: #888; letter-spacing: 2px; }
+.invoice-details p { margin: 10px 0 0 0; font-size: 14px; }
+.invoice-details strong { color: #1c3664; }
+.payment-terms { text-align: right; font-size: 12px; color: #555; margin-bottom: 20px; }
+.addresses { display: flex; gap: 50px; margin-bottom: 30px; }
+.bill-to, .ship-to { flex: 1; }
+.bill-to h3, .ship-to h3 { color: #1c3664; border-bottom: 2px solid #1c3664; padding-bottom: 5px; margin-bottom: 15px; font-size: 16px; }
+.bill-to p, .ship-to p { margin: 0; line-height: 1.6; color: #333; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 30px; }
+th, td { border: 1px solid #ddd; padding: 12px; text-align: right; font-size: 14px; color: #333; }
+th:first-child, td:first-child { text-align: left; }
+th { background-color: #e25822; color: white; font-weight: bold; }
+.footer { display: flex; justify-content: space-between; gap: 40px; }
+.remarks { flex: 2; font-size: 13px; color: #555; }
+.remarks strong { color: #333; }
+.remarks p { line-height: 1.5; margin-top: 5px; }
+.totals { flex: 1; }
+.totals .row { display: flex; justify-content: space-between; border-bottom: 1px solid #ddd; padding: 8px 0; font-size: 14px; }
+.totals .row span:first-child { color: #1c3664; }
+.totals .row.final { border-bottom: 2px solid #e25822; }
+.totals .row.final span:first-child { color: #e25822; }
